@@ -6,16 +6,16 @@
   <title>Document</title>
 </head>
 <body>
+  <h1>Digita tu año de nacimiento</h1>
   <input type="text" id="input">
+  <button id="button">Click</button>
 
   <script>
     const input = document.getElementById('input');
-    input.addEventListener('input', function() {
-      console.log('input event');
-    });
-
-    input.addEventListener('change', function() {
-      console.log('change event');
+    const button = document.getElementById('button');
+    button.addEventListener('click', () => {
+      const edad = 2024 - input.value;
+      alert(`Tu edad es ${edad}`);
     });
   </script>
 </body>
