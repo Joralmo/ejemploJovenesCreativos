@@ -7,15 +7,13 @@
 </head>
 <body>
   <input type="text" id="input">
+  <button id="button">Click</button>
 
   <script>
     const input = document.getElementById('input');
-    input.addEventListener('input', function() {
-      console.log('input event');
-    });
-
-    input.addEventListener('change', function() {
-      console.log('change event');
+    const button = document.getElementById('button');
+    button.addEventListener('click', () => {
+      alert(input.value);
     });
   </script>
 </body>
