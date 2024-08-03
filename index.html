@@ -6,6 +6,7 @@
   <title>Document</title>
 </head>
 <body>
+  <h1>Digita tu año de nacimiento</h1>
   <input type="text" id="input">
   <button id="button">Click</button>
 
@@ -13,7 +14,8 @@
     const input = document.getElementById('input');
     const button = document.getElementById('button');
     button.addEventListener('click', () => {
-      alert(input.value);
+      const edad = 2024 - input.value;
+      alert(`Tu edad es ${edad}`);
     });
   </script>
 </body>
