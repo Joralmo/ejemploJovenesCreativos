@@ -10,12 +10,25 @@
   <input type="text" id="input">
   <button id="button">Click</button>
 
+  <h1>Calcula tu IMC</h1>
+  <input type="text" id="peso" placeholder="Peso">
+  <input type="text" id="altura" placeholder="Altura">
+  <button id="calcular">Calcular</button>
+
   <script>
     const input = document.getElementById('input');
     const button = document.getElementById('button');
     button.addEventListener('click', () => {
       const edad = 2024 - input.value;
       alert(`Tu edad es ${edad}`);
+    });
+
+    const peso = document.getElementById('peso');
+    const altura = document.getElementById('altura');
+    const calcular = document.getElementById('calcular');
+    calcular.addEventListener('click', () => {
+      const imc = peso.value / (altura.value * altura.value);
+      alert(`Tu IMC es ${imc}`);
     });
   </script>
 </body>
