@@ -16,4 +16,3 @@
 - 📝 Algunas veces escribo artículos o tutoriales en [http://joralmo.github.io/](http://joralmo.github.io/)
 - 💬 Puedes preguntarme sobre **Cualquier cosa**, me encanta ayudar.
 - 📫 ¿Como contactarme? **joralmopro@gmail.com**
-- 📄 Conoce mi [Hoja de vida](https://joralmo.pro/cv)
