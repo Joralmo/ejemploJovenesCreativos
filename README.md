@@ -10,7 +10,7 @@
 
 
 - 🔭 Actualmente trabajo en [Sofka](https://sofka.com.co/)
-- 🌱 Actualmente estoy aprendiendo **Git**
+- 🌱 Actualmente estoy aprendiendo **Javascript**
 - 👯 Actualmente estoy colaborando con [NoEMEC](https://github.com/NoEMEC/)
 - 👨‍💻 Todos mis proyectos están disponibles en [https://joralmo-pro.firebaseapp.com/](https://joralmo-pro.firebaseapp.com/)
 - 📝 Algunas veces escribo artículos o tutoriales en [http://joralmo.github.io/](http://joralmo.github.io/)
