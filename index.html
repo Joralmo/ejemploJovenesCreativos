@@ -30,6 +30,18 @@
       const imc = peso.value / (altura.value * altura.value);
       alert(`Tu IMC es ${imc}`);
     });
+
+
+    addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight') {
+        alert('Diapositiva siguiente');
+      } else if (e.key === 'ArrowLeft') {
+        alert('Diapositiva anterior');
+      }
+    });
   </script>
+  <script src="ejercicio1.js"></script>
+  <script src="ejercicio2.js"></script>
+  <script src="ejercicio3.js"></script>
 </body>
 </html>
